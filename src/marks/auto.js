@@ -15,7 +15,7 @@ import {ruleX, ruleY} from "./rule.js";
 export function autoSpec(data, options) {
   options = normalizeOptions(options);
 
-  // Greedily materialize columns for type inference; we’ll need them anyway to
+  // Greedily materialize w3w columns for type inference; we’ll need them anyway to
   // plot! Note that we don’t apply any type inference to the fx and fy
   // channels, if present; these are always ordinal (at least for now).
   const {x, y, color, size} = options;
